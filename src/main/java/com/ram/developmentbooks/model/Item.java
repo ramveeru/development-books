@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class Item {
-	 Book book;
-	 int quantity;
+	private Book book;
+	private int quantity;
 
 }

@@ -4,12 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter 
+@Getter
 @Setter
 @AllArgsConstructor
-public class Book {
+public class DiscountRule {
 	
-	private String name;
-	private float retailPrice;
+	private int numberOfUniqueBooks;
+	private int discount;
 
 }
